@@ -1,1 +1,1 @@
-web: ./bin/catalina.sh run
+web: java -jar your-app.war
