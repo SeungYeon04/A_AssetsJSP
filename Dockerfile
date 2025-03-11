@@ -1,8 +1,10 @@
-# Tomcat을 기본으로 사용하는 Docker 이미지
-FROM tomcat:10.1
+FROM tomcat:10.1-jdk11
 
-# JSP 파일을 Tomcat의 웹 애플리케이션 폴더에 복사
-COPY ./A_ChipShopping /usr/local/tomcat/webapps/ROOT
+# WAR 파일을 Tomcat의 webapps 디렉토리에 복사
+COPY target/your-app.war /usr/local/tomcat/webapps/
 
-# Tomcat 서버 실행 명령어
+# 8080 포트 열기
+EXPOSE 8080
+
+# Tomcat 시작 명령어
 CMD ["catalina.sh", "run"]
