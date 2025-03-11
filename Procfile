@@ -1,1 +1,1 @@
-web: java -jar your-app.war
+web: node server.js
