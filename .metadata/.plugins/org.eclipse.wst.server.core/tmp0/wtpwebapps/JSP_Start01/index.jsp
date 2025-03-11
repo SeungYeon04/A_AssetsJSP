@@ -18,33 +18,33 @@
 
     <div class="container">
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="상품1">
+            <img src="image/별의커비.jpg" alt="상품1" style=" width: 80px; height: auto;">
             <h3>상품명 1</h3>
             <p>₩10,000</p>
             <button>장바구니 담기</button>
         </div>
 
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="상품2">
+<img src="image/별의커비.jpg" alt="상품1" style=" width: 80px; height: auto;">
             <h3>상품명 2</h3>
             <p>₩15,000</p>
             <button>장바구니 담기</button>
         </div>
 
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="상품3">
+            <img src="image/별의커비.jpg" alt="상품1" style=" width: 80px; height: auto;">
             <h3>상품명 3</h3>
             <p>₩20,000</p>
             <button>장바구니 담기</button>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="상품3">
+            <img src="image/별의커비.jpg" alt="상품1" style=" width: 80px; height: auto;">
             <h3>상품명 3</h3>
             <p>₩20,000</p>
             <button>장바구니 담기</button>
         </div>
          <div class="product">
-            <img src="https://via.placeholder.com/200" alt="상품3">
+           <img src="image/별의커비.jpg" alt="상품1" style=" width: 80px; height: auto;">
             <h3>상품명 3</h3>
             <p>₩20,000</p>
             <button>장바구니 담기</button>
