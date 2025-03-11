@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;JSP_Start01/src/main/webapp/Hello.jsp&apos; to &apos;index.jsp&apos;" description="Rename resource &apos;Hello.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/Hello.jsp" name="index.jsp" stamp="1741670114578" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;별의커비.jpg&apos; to &apos;image&apos;" description="Move &apos;별의커비.jpg&apos; to &apos;image&apos;" destination="src/main/webapp/image" element1="src/main/webapp/별의커비.jpg" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1741677276002" updateReferences="true"/>
-</session>

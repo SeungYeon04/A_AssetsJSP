@@ -1,5 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\epslk\Desktop\EclipseFile\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2285103595.index
-\JSP_Start01\src\main\java
-C:\Users\epslk\Documents\GitHub\A_Shopping01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2285103595.index
-\JSP_Start01\src\main\java
