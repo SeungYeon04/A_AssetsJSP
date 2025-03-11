@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\epslk\Documents\GitHub\A_Shopping01\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+293351274.index
+2101775081.index
+2184749481.index
+294478910.index
+3770577292.index

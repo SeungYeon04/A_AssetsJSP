@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ShowViewDialog">
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.eclipse.wst.server.ui.ServersView"/>
+		<item key="DIALOG_X_ORIGIN" value="318"/>
+		<item key="DIALOG_Y_ORIGIN" value="72"/>
+		<item key="DIALOG_WIDTH" value="320"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="Language Servers"/>
+			<item value="Server"/>
+		</list>
+	</section>
+</section>
