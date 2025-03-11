@@ -37,12 +37,29 @@
             <p>₩20,000</p>
             <button>장바구니 담기</button>
         </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="상품3">
+            <h3>상품명 3</h3>
+            <p>₩20,000</p>
+            <button>장바구니 담기</button>
+        </div>
+         <div class="product">
+            <img src="https://via.placeholder.com/200" alt="상품3">
+            <h3>상품명 3</h3>
+            <p>₩20,000</p>
+            <button>장바구니 담기</button>
+        </div>
     </div>
 
     <footer>© 2025 내 쇼핑몰. All rights reserved.</footer>
     <style>
     	
-    	body {
+    	* {
+    		font-family: 'Ownglyph_ParkDaHyun';
+    	}
+    	
+    	button {
+    		background: whilte;
     		font-family: 'Ownglyph_ParkDaHyun';
     	}
     	
@@ -78,13 +95,24 @@
 		}
 		
 		/* 메인콘텐츠 */
-
 		.container {
-			width: 80%; 
+			width: 100%; 
 			margin: 20px auto; 
 			display: flex; 
 			flex-wrap: wrap; 
-			jusify-content:	space-between; 
+			margin: auto;
+			
+			justify-content: center;
+		}
+		
+		.product {
+			width: 15%; /* 너비 추가 */
+			background: white; 
+			padding-top: 10px;
+			padding-bottom: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			margin: 10px ;
 		}
 		
 		
