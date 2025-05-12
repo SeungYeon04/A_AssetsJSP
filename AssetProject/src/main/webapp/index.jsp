@@ -48,11 +48,11 @@
 	}
 
 	List<Product> products = new ArrayList<>();
-	products.add(new Product("음식 도트이미지", "₩1,000", "image/별의커비.jpg", "https://seungyeon.itch.io/fooddot"));
-	products.add(new Product("별모양 이미지", "Free", "image/별의커비.jpg", "https://seungyeon.itch.io/starasset"));
-	products.add(new Product("기본 도트 애니메이션", "₩2,000", "image/별의커비.jpg", "https://seungyeon.itch.io/dotmotion"));
-	products.add(new Product("모바일 게임 기본배경", "₩1,000", "image/별의커비.jpg", "https://seungyeon.itch.io/mobilebg"));
-	products.add(new Product("고양이 애니메이션 .gif", "₩5,000", "image/별의커비.jpg", "https://seungyeon.itch.io/catasset"));
+	products.add(new Product("음식 도트이미지", "₩1,000", "image/nullImage.jpg", "https://seungyeon.itch.io/fooddot"));
+	products.add(new Product("별모양 이미지", "Free", "image/nullImage.jpg", "https://seungyeon.itch.io/starasset"));
+	products.add(new Product("기본 도트 애니메이션", "₩2,000", "image/nullImage.jpg", "https://seungyeon.itch.io/dotmotion"));
+	products.add(new Product("모바일 게임 기본배경", "₩1,000", "image/nullImage.jpg", "https://seungyeon.itch.io/mobilebg"));
+	products.add(new Product("고양이 애니메이션 .gif", "₩5,000", "image/nullImage.jpg", "https://seungyeon.itch.io/catasset"));
 %>
 
     <div class="container">
@@ -64,7 +64,7 @@
             <form action="index.jsp" method="get">
             	<input type="hidden" name="name" value="<%= p.name %>">
             	<input type="hidden" name="link" value="<%= p.link %>">
-	            <button type="submit">장바구니 담기</button>
+	            <button type="submit">담아두기</button>
         		<a href="<%= p.link %>" target="_blank"><button type="button">구매하기</button></a>
             </form>
         </div>
@@ -123,10 +123,14 @@
 			width: 15%;
 			background: white;
 			padding-top: 10px;
+			padding-left: 15px; padding-right: 15px;
 			padding-bottom: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 			text-align: center;
 			margin: 10px;
+			
+			min-width: 120px;
+  			/*min-height: 10px;*/
 		}
 
 		form {
