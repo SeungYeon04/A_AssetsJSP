@@ -16,10 +16,10 @@
 
     <nav>
     	<a href="page_login/profile.jsp">계정</a>
-        <a href="#">홈</a>
-        <a href="#">상품</a>
+        <a href="home.jsp">홈</a>
+        <a href="index.jsp">상품</a>
         <a href="cart.jsp">장바구니</a>
-        <a href="#">문의하기</a>
+        <a href="QnA.jsp">문의하기</a>
     </nav>
 
 <%
