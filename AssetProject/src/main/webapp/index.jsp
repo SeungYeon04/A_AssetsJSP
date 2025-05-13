@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>드루이드 마을의 에셋스토어</title>
 </head>
 <body>
 	<header>† ♤ ♧  드루이드 마을의 에셋스토어 £ ¢</header>

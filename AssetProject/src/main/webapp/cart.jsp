@@ -3,13 +3,15 @@
 
 <!DOCTYPE html>
 <html>
-<head><meta charset="UTF-8"><title>장바구니</title></head>
+<head><meta charset="UTF-8">
+<title>드루이드 마을의 에셋스토어</title>
+</head>
 <body>
  <nav>
     	<a href="#">계정</a>
-        <a href="#">홈</a>
+        <a href="index.jsp">홈</a>
         <a href="#">상품</a>
-        <a href="cart.jsp">장바구니</a>
+        <a href="#">장바구니</a>
         <a href="#">문의하기</a>
 </nav>
 
