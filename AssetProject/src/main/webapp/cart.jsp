@@ -4,11 +4,17 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/main.css">
 <title>드루이드 마을의 에셋스토어</title>
 </head>
 <body>
+<header>† ♤ ♧  드루이드 마을의 에셋스토어 £ ¢</header>
+<form action="MyServlet" method="post">
+		<input type="text" name="fname" placeholder="검색어를 입력해주세요." />
+</form>
+	
  <nav>
-    	<a href="#">계정</a>
+    	<a href="page_login/profile.jsp">계정</a>
         <a href="index.jsp">홈</a>
         <a href="#">상품</a>
         <a href="#">장바구니</a>
@@ -59,33 +65,5 @@
 <br>
 <a href="index.jsp">← 돌아가기</a>
 
-<style>
-		* {
-		 font-family: 'Ownglyph_ParkDaHyun';
-		}
-
-	    @font-face {
-		    font-family: 'Ownglyph_ParkDaHyun';
-		    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-
-		nav {
-			background-color: #444;
-			padding: 10px;
-			text-align: ceter;
-		}
-
-		nav a {
-			color: white;
-            text-decoration: none;
-            margin: 0 8px;
-		}
-
-		nav a:hover {
-            text-decoration: underline;
-        }
-</style>
 </body>
 </html>

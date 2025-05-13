@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/main.css">
 <title>드루이드 마을의 에셋스토어</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 	</form>
 
     <nav>
-    	<a href="#">계정</a>
+    	<a href="page_login/profile.jsp">계정</a>
         <a href="#">홈</a>
         <a href="#">상품</a>
         <a href="cart.jsp">장바구니</a>
@@ -72,80 +73,5 @@
     </div>
 
     <footer>© 2025 / @SeungYeon04 개발자의 에셋스토어</footer>
-
-    <style>
-    	* {
-    		font-family: 'Ownglyph_ParkDaHyun';
-    	}
-
-    	button {
-    		background: whilte;
-    		font-family: 'Ownglyph_ParkDaHyun';
-    	}
-
-    	header {
-    		text-align: center;
-    		padding: 15px 0;
-    	}
-
-	    @font-face {
-		    font-family: 'Ownglyph_ParkDaHyun';
-		    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-
-		nav {
-			background-color: #444;
-			padding: 10px;
-			text-align: ceter;
-		}
-
-		nav a {
-			color: white;
-            text-decoration: none;
-            margin: 0 8px;
-		}
-
-		nav a:hover {
-            text-decoration: underline;
-        }
-
-		.container {
-			width: 100%;
-			margin: 20px auto;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-
-		.product {
-			width: 15%;
-			background: white;
-			padding-top: 10px;
-			padding-left: 15px; padding-right: 15px;
-			padding-bottom: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			text-align: center;
-			margin: 10px;
-			
-			min-width: 120px;
-  			/*min-height: 10px;*/
-		}
-
-		form {
-    		text-align: center;
-  		}
-
-  		form input[type="text"] {
-		    width: 400px;
-		    height: 30px;
-		    font-size: 18px;
-		    padding: 5px 10px;
-		    margin-bottom: 10px;
-		 	border: 1px solid #333;
-		 	border-radius: 10px;
-  		}
-    </style>
 </body>
 </html>
