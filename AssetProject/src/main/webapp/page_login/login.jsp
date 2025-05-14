@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head><title>로그인</title></head>
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>../css/main.css">
 <body>
   <h2>로그인</h2>
   <form action="LoginServlet" method="post">
