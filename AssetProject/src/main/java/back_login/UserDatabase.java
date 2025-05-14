@@ -14,6 +14,10 @@ public class UserDatabase {
     }
 
     public static boolean login(String id, String pw) {
-        return users.containsKey(id) && users.get(id).equals(pw);
+    	System.out.println("입력된 id: " + id);
+    	System.out.println("입력된 pw: " + pw);
+    	System.out.println("저장된 users: " + users);
+    	
+    	return users.containsKey(id) && users.get(id).equals(pw);
     }
 }

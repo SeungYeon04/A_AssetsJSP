@@ -12,9 +12,10 @@ public class LoginServlet extends HttpServlet {
         if (UserDatabase.login(id, pw)) {
             HttpSession session = req.getSession();
             session.setAttribute("user", id);
-            res.sendRedirect("profile.jsp");
+            res.sendRedirect(req.getContextPath() + "/ProfileServlet");
+
         } else {
-            res.sendRedirect("login.jsp?error=1");
+        	res.sendRedirect(req.getContextPath() + "/page_login/login.jsp?error=1");
         }
     }
 }
