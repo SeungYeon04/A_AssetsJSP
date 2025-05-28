@@ -20,7 +20,7 @@ Itch.io 구매처 바로가기 할 수 있도록 방향을 잡았습니다.
   
 ## ⚙️ 개발환경  
  
-• 언어: jsp + java  
+• 언어: jsp + java(javac 17.0.12)  
 • IDE: Eclips  
 • VCS: Github desktop  
 • Sever: apache-tomcat-10.1.39  
